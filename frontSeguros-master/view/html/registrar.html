@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registrar usuario</title>
+  <link rel="stylesheet" href="../../css/estilo.css">
+  <script src="../../config/config.js"></script>
+  <script src="../../locator/personalocator.js"></script>
+  <script src="../../dto/personaDto.js"></script>
+  <script src="../../view/html/registrar.js"></script>
+</head>
+
+<body>
+
+  <div class="signupFrm">
+    <input type="hidden" value="0" id="idPersona">
+    <form action="" class="form" method="post">
+      <h1 class="title">Registrar usuario</h1>
+      <div class="contenedor_form">
+
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="a", id="nombre1">
+          <label for="" class="label">Nombre1</label>
+        </div>
+
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="a", id="nombre2">
+          <label for="" class="label">Nombre2</label>
+        </div>
+
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="a", id="apellido1">
+          <label for="" class="label">Apellido1</label>
+        </div>
+
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="a", id="apellido2">
+          <label for="" class="label">Apellido2</label>
+        </div>
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="a", id="tipoDocumento">
+          <label for="" class="label">Tipo documento</label>
+        </div>
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="a", id="numDocumento">
+          <label for="" class="label">Numero documento</label>
+        </div>
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="a", id="sexo">
+          <label for="" class="label">Sexo</label>
+        </div>
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="a", id="email">
+          <label for="" class="label">Email</label>
+        </div>
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="a", id="numTelefono">
+          <label for="" class="label">Numero telefono</label>
+        </div>
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="a", id="estadoCivil">
+          <label for="" class="label">Profesion</label>
+        </div>
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="a", id="profesion">
+          <label for="" class="label">Estado civil</label>
+        </div>
+        <div class="inputContainer">
+          <input type="date" class="input" placeholder="a", id="fechaNacimiento">
+          <label for="" class="label">Fecha nacimiento</label>
+        </div>
+        <div class="inputContainer">
+          <input type="text" class="input" placeholder="a", id="salario">
+          <label for="" class="label">Salario</label>
+        </div>
+      </div>
+
+      <div class="containerButton">
+        <input type="button" class="submitBtn" value="Registrar" onclick="guardar()">
+        <a class="back" href="index.html">Volver</a>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
